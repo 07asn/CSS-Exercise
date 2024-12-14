@@ -3,8 +3,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #fffee2;
   border-right: 5px solid black;
   height: 100%;
@@ -14,41 +12,24 @@ p{
   margin: 0;
 }
 
-/* Boxes Container */
-.container {
-  display: flex;
-  gap: 12px;
-  margin: 10px;
-  max-width: 90%;
-}
-
 /* Boxes */
 .box {
-  width: 70%;
-  max-height: 100px;
-  overflow-y: scroll;
+  width: 30%;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  overflow:hidden;
   background-color: #d8d6d6;
-  scrollbar-width: none;
-  padding: 0px;
-  margin: 0;
 }
 
 /* Mid Box */
 .box-scroll {
-  font-weight: bold;
-  border: 2px solid #000000;
-  max-height: 50px;
-  overflow-y: scroll;
-  margin: 20px 0;
+  height: 50px;
+  margin: 5px 0;
   padding: 5px;
-}
-
-/* Last Box */
-.box-hidden {
-  background-color: #fffee2;
-  width: 70%;
-  max-height: 110px;
+  border: 2px solid #000000;
+  border-left: 0px;
+  border-right: 0px;
+  font-weight: bold;
   overflow-y: scroll;
-  scrollbar-width: none;
-  padding: 10px;
 }
