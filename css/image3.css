@@ -43,11 +43,15 @@ ul span {
 }
 
 /* Bold First li in ul None"] */
-ul[type="none"] li:first-child {
+ul[type="none"] > li:first-child {
     font-weight: bold;
 }
 
 /* Bold First li in ul Circle */
-ul[type="circle"]  li:first-child {
+div > li {
+    font-weight: bold;
+}
+
+span > li {
     font-weight: bold;
 }
